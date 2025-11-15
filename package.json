@@ -1,0 +1,28 @@
+{
+  "name": "greetify-ohin",
+  "version": "1.0.0",
+  "description": "Tiny React-friendly greeting utilities and hooks with locale support.",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "keywords": ["greeting", "react", "hook", "localization", "ohin"],
+  "author": "Ohin",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "greeting.js",
+    "hooks.js",
+    "Greeting.js",
+    "types.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
