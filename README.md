@@ -1,43 +1,30 @@
-# @ohin/greetify
+# greetify-ohin
 
-Tiny, privacy-first greeting utilities for JavaScript and React.
+A tiny, zero-dependency greeting utility for JavaScript and React.  
+Designed for simplicity, performance, and multi-language support with optional persistence.
 
-- Small and dependency-free
-- React-friendly (hook + component)
-- TypeScript types included
-- LocalStorage persistence with TTL
-- SSR-safe
-
----
-
-## Table of Contents
-
-- [Install](#install)
-- [Quick Demo](#quick-demo)
-- [API](#api)
-  - [`sayHello(name?, options?)`](#sayhelloname-options)
-  - [`useGreeting(name?, options?)`](#usegreetingname-options)
-  - [`<Greeting />` component](#greeting--component)
-- [Examples](#examples)
-  - [Node / Plain JS](#node--plain-js)
-  - [React (JavaScript)](#react-javascript)
-  - [React (TypeScript)](#react-typescript)
-  - [Custom template example](#custom-template-example)
-  - [Persistence (localStorage + TTL) example](#persistence-localstorage--ttl-example)
-- [Test locally before publish](#test-locally-before-publish)
-- [Publish to npm](#publish-to-npm)
-- [Versioning & updates](#versioning--updates)
-- [Why use this package](#why-use-this-package)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Contact](#contact)
+[![npm version](https://img.shields.io/npm/v/greetify-ohin.svg)](https://www.npmjs.com/package/greetify-ohin)
+[![npm downloads](https://img.shields.io/npm/dm/greetify-ohin.svg)](https://www.npmjs.com/package/greetify-ohin)
+[![license](https://img.shields.io/npm/l/greetify-ohin.svg)](LICENSE)
 
 ---
 
-## Install
+## 🚀 Features
+
+- ✨ Simple greeting generator (`sayHello`)
+- ⚛️ React hook for dynamic greetings (`useGreeting`)
+- 🧩 React component (`<Greeting />`)
+- 🌍 Multi-language support (`en`, `bn`, `es`)
+- 💾 Optional localStorage persistence with TTL
+- 🪶 Tiny & dependency-free
+- 🔒 SSR-safe (no crashes on server)
+- 📝 Full TypeScript types included
+
+---
+
+## 📦 Installation
 
 ```bash
-npm install @ohin/greetify
+npm install greetify-ohin
 # or
-yarn add @ohin/greetify
-
+yarn add greetify-ohin
